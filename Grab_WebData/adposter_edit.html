@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<link rel="shortcut icon" href="/static/img/favicon.ico">-->
+
+
+    <title></title>
+
+
+    <link rel="stylesheet" type="text/css" href="css/third/bootstrap.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="css/dist/background.css">
+
+
+    <link rel="stylesheet" type="text/css" href="/static/zui/pickadate/compressed/themes/classic.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/zui/pickadate/compressed/themes/classic.date.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/zui/uploadify/uploadify.css"/>
+
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+
+
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="/static/zui/pickadate/compressed/picker.js"></script>
+    <script type="text/javascript" src="/static/zui/pickadate/compressed/picker.date.js"></script>
+    <script type="text/javascript" src="/static/zui/pickadate/compressed/legacy.js"></script>
+    <script type="text/javascript" src="/static/zui/pickadate/compressed/translations/zh_CN.js"></script>
+    <script type="text/javascript" src="/static/zui/uploadify/jquery.uploadify.js"></script>
+
+
+</head>
+<body>
+
+<div class="header clearfix">
+    <div class="container">
+        <div class="pull-right zb-header-links">
+            <a class="btn btn-link">admin</a>
+            <a class="btn btn-link" href="/sp/logout">安全退出</a>
+        </div>
+        <h3>燕子家-后台管理</h3>
+    </div>
+</div>
+
+<div class="navbar navbar-default">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a href="#">门店管理</a>
+            </li>
+            <li>
+                <a href="#">合作商管理</a>
+            </li>
+            <li class="active">
+                <a href="#">app广告图</a>
+            </li>
+            <li>
+                <a href="#">需求审核</a>
+            </li>
+            <li>
+                <a href="#">数据维护</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="container">
+
+        <div>
+
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="input-group layout-mt20">
+                        <input type="text" class="form-control" placeholder="输入名称搜索">
+                        <span class="input-group-btn"> <a class="btn btn-default"> 搜索 </a> </span>
+                    </div>
+                    <div class="list-group layout-mt20">
+                        <a href="#" class="list-group-item active">全部</a>
+                        <a href="#" class="list-group-item">其它</a>
+                    </div>
+                </div>
+
+                <div class="col-xs-9">
+                    <a href="/sp/myapps" class="btn btn-primary pull-right btn-sm">返回</a>
+                    <h4>编辑广告图</h4>
+                    <hr/>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-xs-2">名称：</label>
+
+                                    <div class="col-xs-5">
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-xs-2">图片：</label>
+
+                                    <div class="col-xs-5">
+                                        <img src="" alt="" width="100" height="100"/>
+                                        <a href="#" class="btn btn-default">上传</a>
+                                    </div>
+                                    <div class="help-block">图片格式：jpg，尺寸：00x00</div>
+                                </div>
+
+                                <div class="alert alert-danger">
+                                    <strong>失败！</strong> 失败细节啥啥啥...
+                                </div>
+
+                                <a class="btn btn-primary"> 添加 </a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>
